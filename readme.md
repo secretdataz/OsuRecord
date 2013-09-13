@@ -13,7 +13,7 @@ Prerequisites
 * Go through all the code and fix paths/display numbers/users/etc. to suit your system
 * If using a resolution other than 640x480, bsb.jpg and mainmenu5.jpg need scaled/recreated accordingly and all coordinates in the AHK files will likely need to be recalculated
 * Appropriate sudo config for the hundreds of sudo scripts
-* This modified copy of GLC: https://github.com/darkimmortal/glc
+* This modified copy of GLC: https://github.com/darkimmortal/glc/tree/pulseaudio
 * ffmpeg, imagemagick, SoX, etc.
 * Arch Linux strongly recommended
 
