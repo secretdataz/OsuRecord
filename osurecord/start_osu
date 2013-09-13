@@ -1,0 +1,4 @@
+#!/bin/bash
+export DISPLAY=:8
+sux - osu wine /home/osu/osu/osu\!.exe "$1"
+

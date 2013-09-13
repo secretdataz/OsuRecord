@@ -1,0 +1,7 @@
+#!/bin/bash
+while :
+do
+	DISPLAY=:8 nice import -window osu\! -quality 70 /home/nginx/www/osurecord.weeaboo.com/screenshot.jpg || nice cp -f /home/nginx/www/osurecord.weeaboo.com/screenshot2.jpg /home/nginx/www/osurecord.weeaboo.com/screenshot.jpg
+	sleep 5
+done
+

@@ -1,0 +1,2 @@
+winhide Updater
+

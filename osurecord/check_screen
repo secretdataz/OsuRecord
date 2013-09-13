@@ -1,0 +1,2 @@
+#!/bin/bash
+DISPLAY=:8 nice import -window osu! -quality 70 /tmp/osurecord/check.jpg

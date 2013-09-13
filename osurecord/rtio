@@ -1,0 +1,10 @@
+#!/bin/bash
+PIDS=`ps aux | grep osu\!.exe | tr -s ' ' | cut -d ' ' -f 2`
+while read -r SPID; do
+        #chrt -p -a -f 30 $SPID
+        #ionice -c 1 -n 2 -t -p $SPID
+	renice -2 $SPID
+done <<< "$PIDS"
+
+
+

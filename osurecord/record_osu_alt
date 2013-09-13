@@ -1,0 +1,3 @@
+#!/bin/bash
+export DISPLAY=:8
+sudo -u osu nice -n -2 glc-capture -v 9 -o /dolan/osurecord/glc/%pid%.glc --compressed=300 --uncompressed=300 --unscaled=300 --audio-skip --pbo --compression=none --lock-fps -f 60 -b back -s nice -n -2 wine /home/osu/osu/osu\!.exe Replays/replay.osr

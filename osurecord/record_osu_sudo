@@ -1,0 +1,4 @@
+#!/bin/bash
+export DISPLAY=:8
+export WINEPREFIX=/home/osu/.wine
+DISPLAY=:8 glc-capture -v 9 -o /dolan/osurecord/glc/%pid%.glc --compressed=300 --uncompressed=300 --unscaled=300 --audio-skip --pbo --compression=none --lock-fps -f 60 -b back -s wine /home/osu/osu/osu\!.exe Replays/replay.osr

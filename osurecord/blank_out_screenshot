@@ -1,0 +1,2 @@
+#!/bin/bash
+cp -f /home/nginx/www/osurecord.weeaboo.com/screenshot2.jpg /home/nginx/www/osurecord.weeaboo.com/screenshot.jpg

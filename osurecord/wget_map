@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /dolan/dl/OsuBeatmaps
+wget -N --quiet --content-disposition "http://osu.ppy.sh/d/$1?u=Darkimmortal&h=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+export DISPLAY=:8
+sux - osu /home/osu/osurecord/record_osu_sudo
+
+
+
+
+
+
+
